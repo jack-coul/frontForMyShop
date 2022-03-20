@@ -1,0 +1,6 @@
+.main {
+  display: flex;
+  width: 1240px;
+  margin: 20px auto;
+  justify-content: space-between;
+}

@@ -1,0 +1,156 @@
+.header {
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  color: azure;
+}
+
+.headerBlock {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+}
+
+.modalFormLogin {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.closeModalForm {
+  position: absolute;
+  left: 635px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.buttonLog {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addNewProduct {
+  cursor: pointer;
+}
+
+.newProduct {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.newProduct input {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.newProduct button {
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+
+.newProduct button:hover {
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+}
+
+.messageLogin {
+  color: white;
+}
+
+.basket img {
+  width: 50px;
+}
+
+.userLK {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.userLK img {
+  width: 25px;
+}
+.cashIn {
+  cursor: pointer;
+}
+
+.cash {
+  top: 40px;
+  left: 10px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+}
+
+.cash input[type="text"] {
+  width: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cash input[type="submit"] {
+  background-color: white;
+  border: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.messageCash {
+  position: absolute;
+  top: 200px;
+  left: -250px;
+  width: 150px;
+  color: black;
+  padding: 30px 100px;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+}

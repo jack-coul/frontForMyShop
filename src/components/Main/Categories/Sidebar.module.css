@@ -1,0 +1,36 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.categoryBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+Link {
+  list-style: none;
+}
+
+.categoryName {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.category:hover {
+  background-color: #f1f1f1;
+}
+
+.category:focus {
+  background-color: #f1f1f1;
+}
+
+.deleteCategory {
+  cursor: pointer;
+}

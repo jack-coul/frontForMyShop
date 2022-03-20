@@ -1,0 +1,104 @@
+.products {
+  display: flex;
+  width: 75%;
+  flex-wrap: wrap;
+  /* position: relative; */
+  /* background-color: black; */
+}
+
+.product {
+  width: 280px;
+  border: 1px solid #f1f1f1;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 18px;
+  height: 400px;
+  margin-bottom: 10px;
+  /* background-color: red; */
+}
+
+.img {
+  height: 180px;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+
+.img img {
+  height: 100%;
+}
+
+.deleteProduct {
+  text-align: right;
+  cursor: pointer;
+}
+
+.details {
+  text-align: right;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.info {
+  height: 100px;
+  /* background-color: blue; */
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.byeProduct button {
+  width: 280px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.allPrices {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+}
+
+.oldPrice {
+  font-size: 14px;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.buttonOne button {
+  width: 280px;
+  height: 40px;
+  background-color: rgba(112, 112, 112, 0.596);
+  border: 0;
+  border-radius: 5px;
+  cursor: not-allowed;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.messageSignin {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  text-align: center;
+  word-spacing: 2px;
+  font-size: 36px;
+  padding: 30px 100px;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 18px 0px rgba(34, 60, 80, 0.2);
+}
